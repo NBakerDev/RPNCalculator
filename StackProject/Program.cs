@@ -44,7 +44,7 @@ namespace StackProject {
                     return false;
                 }
                 default: {
-                    var number = long.Parse(response);
+                    var number = long.Parse(response); 
                     stack.Push(number);
                     break;
                 }
